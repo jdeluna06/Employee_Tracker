@@ -1,5 +1,6 @@
 \c postgres
-DROP DATABASE IF EXIST employee_db;
+DROP DATABASE IF EXISTS employee_db;
+
 CREATE DATABASE employee_db;
 
 \c employee_db;
@@ -11,8 +12,7 @@ CREATE TABLE role (
     id SERIAL PRIMARY KEY,
     title VARCHAR(30),
     salary DECIMAL(10, 2),
-    department_id INT,
-  
+    department_id INT
 );
 
 CREATE TABLE employee (

@@ -1,6 +1,6 @@
 -- Connect to the database
 -- CHANGE DB NAME HERE TO MATCH YOURS:
-\c employees_db;
+\c employee_db;
 
 INSERT INTO department
     (name)
